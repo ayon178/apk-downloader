@@ -29,7 +29,7 @@ const MOCK_ACCORDIONS = [...Array(4)].map((_, index) => ({
 }))
 
 const RootStyle = styled(Page)(({ theme }) => ({
-  paddingTop: theme.spacing(11),
+  paddingTop: theme.spacing(0),
   paddingBottom: theme.spacing(15),
 }))
 
@@ -52,7 +52,14 @@ export default function AccordionComponent() {
   return (
     <RootStyle>
       <Container id="feedback" ref={feedbackRef}>
-        <Block title="Frequently Asked Question">
+        <Typography
+          variant="h2"
+          color="primary"
+          sx={{ mb: 3, textAlign: 'center' }}
+        >
+          FAQ
+        </Typography>
+        <Block>
           {MOCK_ACCORDIONS.map((item, index) => (
             <Accordion
               key={item.value}
