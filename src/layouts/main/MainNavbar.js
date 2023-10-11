@@ -61,8 +61,9 @@ export default function MainNavbar() {
         disableGutters
         sx={{
           ...(isOffset && {
-            bgcolor: 'background.default',
+            bgcolor: 'rgba(0, 0, 0, 0.5)',
             height: { md: APP_BAR_DESKTOP - 16 },
+            backdropFilter: 'blur(6px)',
           }),
         }}
       >
@@ -84,45 +85,45 @@ export default function MainNavbar() {
             variant="body2"
             sx={{
               marginRight: 2,
-              color: 'primary.main',
+              color: 'common.white',
               fontWeight: 'bold',
               cursor: 'pointer',
               fontSize: {
                 xs: '0.6rem',
                 sm: '0.7rem',
-                md: '.9rem',
+                md: '1rem',
               },
             }}
           >
             Feedback
           </Typography>
 
-          <ButtonAnimate>
-            <Button
-              variant="outlined"
-              color="primary"
-              href="/manual"
-              sx={{
-                marginRight: 2,
-                fontSize: {
-                  xs: '0.6rem',
-                  sm: '0.7rem',
-                  md: '.9rem',
-                },
-              }}
-            >
-              User Manual
-            </Button>
-          </ButtonAnimate>
+          <Typography
+            onClick={() => router.push('/manual')}
+            variant="body2"
+            sx={{
+              marginRight: 2,
+              color: 'common.white',
+              fontWeight: 'bold',
+              cursor: 'pointer',
+              fontSize: {
+                xs: '0.6rem',
+                sm: '0.7rem',
+                md: '1rem',
+              },
+            }}
+          >
+            User Manual
+          </Typography>
 
           <ButtonAnimate>
             <Button
               variant="contained"
-              color="primary"
               href="#"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
+                color: 'black',
                 fontSize: {
                   xs: '0.6rem',
                   sm: '0.7rem',

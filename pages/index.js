@@ -8,6 +8,7 @@ import { LandingHero } from '../src/components/_external-pages/landing'
 import dynamic from 'next/dynamic'
 import { useEffect, useState } from 'react'
 import CustomLoadingScreen from 'src/components/CustomLoadingScreen'
+import AppInterface from 'src/components/_external-pages/landing/AppInterface'
 const AccordionComponent = dynamic(
   () => import('../src/components/_external-pages/landing/Accordion'),
   { ssr: false }
@@ -58,6 +59,7 @@ export default function LandingPage() {
       >
         <LandingHero />
         <ContentStyle>
+          <AppInterface />
           <AccordionComponent />
         </ContentStyle>
       </RootStyle>

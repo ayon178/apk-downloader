@@ -8,11 +8,7 @@ import { styled } from '@mui/material/styles'
 import { Box, Stack, Button, Container, Typography } from '@mui/material'
 // routes
 //
-import {
-  varFadeIn,
-  varWrapEnter,
-  varFadeInRight,
-} from '../../animate'
+import { varFadeIn, varWrapEnter, varFadeInRight } from '../../animate'
 import InfiniteVideo from './InfiniteVideo'
 
 // ----------------------------------------------------------------------
@@ -64,6 +60,7 @@ const HeroImgStyle = styled(motion.div)(({ theme }) => ({
   margin: 'auto',
   position: 'absolute',
   height: '100vh',
+  backgroundImage: `linear-gradient(to right, rgba(0, 51, 153, 0.7) 0%, rgba(0, 77, 51, 0.5) 60%, rgba(255, 255, 255, 0.6) 100%), url(/static/home/banner.jpg)`,
 }))
 
 // ----------------------------------------------------------------------
@@ -72,15 +69,13 @@ export default function LandingHero() {
   return (
     <>
       <RootStyle initial="initial" animate="animate" variants={varWrapEnter}>
-        <HeroOverlayStyle
+        {/* <HeroOverlayStyle
           alt="overlay"
           src="/static/overlay.svg"
           variants={varFadeIn}
-        />
+        /> */}
 
-        <HeroImgStyle>
-          <InfiniteVideo />
-        </HeroImgStyle>
+        <HeroImgStyle>{/* <InfiniteVideo /> */}</HeroImgStyle>
         <Container
           sx={{
             height: '100%',
@@ -92,34 +87,50 @@ export default function LandingHero() {
           <ContentStyle>
             <motion.div variants={varFadeInRight}>
               <Typography variant="h1" sx={{ color: 'common.white' }}>
-                Download <br />
-                the app <br />
+                Be&nbsp;
                 <Typography
                   component="span"
                   variant="h1"
                   sx={{ color: 'primary.main' }}
                 >
-                  For Free
+                  Different. <br />
+                </Typography>
+                Choose&nbsp;
+                <Typography
+                  component="span"
+                  variant="h1"
+                  sx={{ color: 'primary.main' }}
+                >
+                  Differently.
                 </Typography>
               </Typography>
             </motion.div>
 
             <motion.div variants={varFadeInRight}>
-              <Typography sx={{ color: 'common.white' }}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Provident recusandae officia, velit culpa tenetur facilis
-                doloremque cupiditate similique id optio!
+              <Typography
+                component="span"
+                variant="h4"
+                sx={{ color: 'common.white'}}
+              >
+                Download our app for&nbsp;
+                <Typography
+                  component="span"
+                  variant="h3"
+                  sx={{ color: 'primary.main' }}
+                >
+                  Free
+                </Typography>
               </Typography>
             </motion.div>
-
             <motion.div variants={varFadeInRight}>
               <NextLink href="#">
                 <Button
                   size="large"
                   variant="contained"
-                  startIcon={<Icon icon={flashFill} width={20} height={20} />}
+                  sx={{ color: 'black' }}
+                  // startIcon={<Icon icon={flashFill} width={20} height={20} />}
                 >
-                  Download The APK
+                  Download Now
                 </Button>
               </NextLink>
             </motion.div>
