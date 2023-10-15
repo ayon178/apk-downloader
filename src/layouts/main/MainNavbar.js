@@ -85,7 +85,7 @@ export default function MainNavbar() {
             variant="body2"
             sx={{
               marginRight: 2,
-              color: 'common.white',
+              color: 'primary.main',
               fontWeight: 'bold',
               cursor: 'pointer',
               fontSize: {
@@ -103,7 +103,7 @@ export default function MainNavbar() {
             variant="body2"
             sx={{
               marginRight: 2,
-              color: 'common.white',
+              color: 'primary.main',
               fontWeight: 'bold',
               cursor: 'pointer',
               fontSize: {
@@ -123,7 +123,7 @@ export default function MainNavbar() {
               target="_blank"
               rel="noopener noreferrer"
               sx={{
-                color: 'black',
+                color: 'common.white',
                 fontSize: {
                   xs: '0.6rem',
                   sm: '0.7rem',

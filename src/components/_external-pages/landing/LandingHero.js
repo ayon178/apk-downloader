@@ -60,7 +60,7 @@ const HeroImgStyle = styled(motion.div)(({ theme }) => ({
   margin: 'auto',
   position: 'absolute',
   height: '100vh',
-  backgroundImage: `linear-gradient(to right, rgba(0, 51, 153, 0.7) 0%, rgba(0, 77, 51, 0.5) 60%, rgba(255, 255, 255, 0.6) 100%), url(/static/home/banner.jpg)`,
+  backgroundImage: ` url(/static/home/banner.png)`,
 }))
 
 // ----------------------------------------------------------------------
@@ -110,7 +110,7 @@ export default function LandingHero() {
               <Typography
                 component="span"
                 variant="h4"
-                sx={{ color: 'common.white'}}
+                sx={{ color: 'common.white' }}
               >
                 Download our app for&nbsp;
                 <Typography
@@ -127,7 +127,7 @@ export default function LandingHero() {
                 <Button
                   size="large"
                   variant="contained"
-                  sx={{ color: 'black' }}
+                  sx={{ color: 'color.white' }}
                   // startIcon={<Icon icon={flashFill} width={20} height={20} />}
                 >
                   Download Now

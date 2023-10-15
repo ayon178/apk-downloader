@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles'
 import { Box, Container, Typography } from '@mui/material'
 import Page from '../../Page'
 import Image from 'next/image'
-import phoneImage from '../../../assets/phone.jpg'
+import phoneImage from '../../../assets/downloaded/phone.png'
 import google from '../../../assets/downloaded/google.png'
 import apple from '../../../assets/downloaded/app.png'
 import rq from '../../../assets/downloaded/qr.png'
@@ -18,7 +18,7 @@ const AppInterface = () => {
     <RootStyle>
       <Container>
         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Image src={phoneImage} alt="phone" width={420} height={500} />
+          <Image src={phoneImage} alt="phone" width={400} height={600} />
           <Box sx={{ width: '50%', textAlign: 'right' }}>
             <Typography variant="h2" color="primary" sx={{ mb: 3 }}>
               App interface
@@ -29,10 +29,15 @@ const AppInterface = () => {
             </Typography>
 
             <Box
-              sx={{ display: 'flex', justifyContent: 'flex-end', marginTop: 2 }}
+              sx={{
+                display: 'flex',
+                justifyContent: 'flex-end',
+                marginTop: 2,
+                gap: 2,
+              }}
             >
-              <Image src={google} alt="google" width={150} height={60} />
-              <Image src={apple} alt="apple" width={200} height={60} />
+              <Image src={google} alt="google" width={170} height={60} />
+              <Image src={apple} alt="apple" width={170} height={60} />
             </Box>
             <Typography
               variant="body1"
@@ -43,7 +48,7 @@ const AppInterface = () => {
             <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
               <Image
                 style={{
-                  border: '3px solid aqua',
+                  border: '3px solid #590504',
                   borderRadius: '5px',
                   padding: '5px',
                 }}
