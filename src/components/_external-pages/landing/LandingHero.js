@@ -90,7 +90,7 @@ export default function LandingHero() {
                 variant="h1"
                 sx={{ color: 'common.white', marginBottom: '3rem' }}
               >
-                SELL&nbsp;
+                SEL&nbsp;
                 <Typography
                   component="span"
                   variant="h1"
