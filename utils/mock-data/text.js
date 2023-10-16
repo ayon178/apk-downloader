@@ -1,10 +1,10 @@
 // ----------------------------------------------------------------------
 
 export const title = [
-  'Apply These 7 Secret Techniques To Improve Event',
-  'Believing These 7 Myths About Event Keeps You From Growing',
-  "Don't Waste Time! 7 Facts Until You Reach Your Event",
-  'How 7 Things Will Change The Way You Approach Event',
+  'How to download',
+  'How to use',
+  'How to download',
+  'How to use',
   "Event Awards: 7 Reasons Why They Don't Work & What You Can Do About It",
   "Event Doesn't Have To Be Hard. Read These 7 Tips",
   'Event Is Your Worst Enemy. 7 Ways To Defeat It',
@@ -40,8 +40,8 @@ export const title = [
   '30 Tips To Grow Your Event',
   '30 Ways To Avoid Event Burnout',
   '30 Ways To Improve Event',
-  'How To Make More Event By Doing Less'
-];
+  'How To Make More Event By Doing Less',
+]
 
 export const sentence = [
   'Assumenda nam repudiandae rerum fugiat vel maxime.',
@@ -83,8 +83,8 @@ export const sentence = [
   'Mollitia inventore recusandae provident aut.',
   'Numquam ullam beatae possimus.',
   'Fuga velit cupiditate ex culpa odio aut ut.',
-  'Vero corrupti nam voluptatum excepturi est et.'
-];
+  'Vero corrupti nam voluptatum excepturi est et.',
+]
 
 export const description = [
   'Occaecati est et illo quibusdam accusamus qui. Incidunt aut et molestiae ut facere aut. Est quidem iusto praesentium excepturi harum nihil tenetur facilis. Ut omnis voluptates nihil accusantium doloribus eaque debitis.',
@@ -126,5 +126,5 @@ export const description = [
   'Modi quia laboriosam qui ad aut. Fugit quisquam earum distinctio officia est fugit quos. Iure repellat distinctio veritatis voluptate amet ratione repudiandae.',
   'Impedit perferendis vel quis ratione. Id aut id officia. Illum fuga saepe provident voluptate eligendi provident. Et nostrum maxime magni. Nobis cumque id magni in iste earum.',
   'Dolor numquam maiores praesentium dolorem nihil minus praesentium rem dolorem. Est rerum placeat. Numquam sed magni aliquam laborum enim facere ducimus.',
-  'In sint enim nam et itaque et qui. Molestiae a iusto quidem quia temporibus id quia eaque eius. Quis quia consectetur saepe vero et molestias. Rem minima accusamus vitae adipisci molestiae unde voluptate consequatur molestiae. Rerum exercitationem quisquam vitae.'
-];
+  'In sint enim nam et itaque et qui. Molestiae a iusto quidem quia temporibus id quia eaque eius. Quis quia consectetur saepe vero et molestias. Rem minima accusamus vitae adipisci molestiae unde voluptate consequatur molestiae. Rerum exercitationem quisquam vitae.',
+]

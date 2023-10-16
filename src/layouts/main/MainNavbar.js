@@ -79,7 +79,7 @@ export default function MainNavbar() {
         >
           <NextLink href="/">
             {/* <Logo /> */}
-            <Image src={logoImage} alt="logo" width={80} height={60} />
+            <Image src={logoImage} alt="logo" width={70} height={70} />
           </NextLink>
           <Box sx={{ flexGrow: 1 }} />
 
@@ -98,7 +98,7 @@ export default function MainNavbar() {
               },
             }}
           >
-            Feedback
+            Menu 1
           </Typography>
 
           <Typography
@@ -116,7 +116,7 @@ export default function MainNavbar() {
               },
             }}
           >
-            User Manual
+            Menu 2
           </Typography>
 
           <ButtonAnimate>
