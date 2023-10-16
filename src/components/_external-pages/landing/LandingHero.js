@@ -86,23 +86,31 @@ export default function LandingHero() {
         >
           <ContentStyle>
             <motion.div variants={varFadeInRight}>
-              <Typography variant="h1" sx={{ color: 'common.white' }}>
-                Be&nbsp;
+              <Typography
+                variant="h1"
+                sx={{ color: 'common.white', marginBottom: '3rem' }}
+              >
+                SELL&nbsp;
                 <Typography
                   component="span"
                   variant="h1"
                   sx={{ color: 'primary.main' }}
                 >
-                  Different. <br />
+                  CONNECT
+                  <br />
                 </Typography>
-                Choose&nbsp;
-                <Typography
-                  component="span"
-                  variant="h1"
-                  sx={{ color: 'primary.main' }}
-                >
-                  Differently.
-                </Typography>
+              </Typography>
+              <Typography
+                component="span"
+                variant="h2"
+                sx={{
+                  color: 'common.white',
+                  whiteSpace: 'nowrap',
+                  lineHeight: '50px',
+                }}
+              >
+                Mobile Application for the
+                <br /> ease of our clients
               </Typography>
             </motion.div>
 

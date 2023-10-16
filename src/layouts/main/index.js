@@ -38,7 +38,7 @@ export default function MainLayout({ children }) {
         >
           <Container maxWidth='lg'>
             <ScrollLink to='move_top' spy smooth>
-              <Logo sx={{ mb: 1, mx: 'auto', cursor: 'pointer' }} />
+              {/* <Logo sx={{ mb: 1, mx: 'auto', cursor: 'pointer' }} /> */}
             </ScrollLink>
 
             <Typography variant='caption' component='p'>

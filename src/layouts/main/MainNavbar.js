@@ -15,6 +15,8 @@ import {
 import useOffSetTop from '../../hooks/useOffSetTop'
 // components
 import { ButtonAnimate } from '../../../src/components/animate'
+import Image from 'next/image'
+import logoImage from '../../assets/downloaded/main.png'
 import dynamic from 'next/dynamic'
 const Logo = dynamic(() => import('../../components/Logo'), { ssr: false })
 
@@ -76,7 +78,8 @@ export default function MainNavbar() {
           }}
         >
           <NextLink href="/">
-            <Logo />
+            {/* <Logo /> */}
+            <Image src={logoImage} alt="logo" width={80} height={60} />
           </NextLink>
           <Box sx={{ flexGrow: 1 }} />
 
