@@ -60,7 +60,7 @@ export default function AccordionComponent() {
           FAQ
         </Typography>
         <Typography
-          variant="body2"
+          variant="body1"
           sx={{ color: 'text.secondary', marginBottom: 5, textAlign:'center' }}
         >
           This Property Management Application is new concept in the country. To
