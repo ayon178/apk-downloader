@@ -103,7 +103,7 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              Information You Provide Us:
+              Information You Provide Us
             </Typography>
             <br />
             Information is provided when you only upload it to the app. You may
@@ -137,7 +137,7 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              Third-Party Policies :
+              Third-Party Policies
             </Typography>
             <br />
             Third-party ad servers, links, or ad networks and technologies like
@@ -169,8 +169,22 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              HOW WE USE YOUR INFORMATION :
+              Information Collection and Use
             </Typography>
+            <br />
+            For a better experience, while using our Service, we may require you
+            to provide us with certain personally identifiable information. The
+            information that we request will be retained by us and used as
+            described in this privacy policy.
+            <br /> The app does use third-party services that may collect
+            information used to identify you. Link to the privacy policy of
+            third-party service providers used by the app
+            <br />
+            <ul style={{paddingLeft: '45px', marginTop: '10px'}}>
+              <li>Google Play Services</li>
+              <li>Google Analytics for Firebase</li>
+              <li>Firebase Crashlytics</li>
+            </ul>
             <br />
             We do not use, share, or reference your information or application
             use related data for any other purposes except for usability of the
@@ -201,7 +215,7 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              WHO DO WE SHARE YOUR INFORMATION WITH :
+              WHO DO WE SHARE YOUR INFORMATION WITH
             </Typography>
             <br />
             For any reason of Legal and Regulatory Disclosures, we may disclose
@@ -244,7 +258,7 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              SECURITY:
+              SECURITY
             </Typography>
             <br />
             We are continuously implementing and updating administrative,
@@ -276,7 +290,7 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              User access for Children :
+              User access for Children
             </Typography>
             <br />
             Information for Children, Individuals under 18 are not permitted to
@@ -308,7 +322,7 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              Service Providers (If Need) :
+              Service Providers (If Need)
             </Typography>
             <br />
             We may employ third-party companies and individuals due to the
@@ -345,13 +359,49 @@ function Privacy() {
               variant="span"
               sx={{ fontWeight: 'bold', fontSize: '1rem' }}
             >
-              Changes to This Privacy Policy :
+              Changes to This Privacy Policy
             </Typography>
             <br />
             We may update our privacy policy from time to time. Thus, you are
             advised to review this page periodically for any changes. We will
             notify you of any changes by posting the new privacy policy on this
             page.
+          </Typography>
+
+          <Typography
+            variant="h2"
+            sx={{
+              fontWeight: 'normal',
+              textAlign: 'justify',
+              mt: 3,
+              fontSize: {
+                xs: '.8rem',
+                sm: '.9rem',
+              },
+            }}
+          >
+            <Typography
+              variant="span"
+              sx={{ fontWeight: 'bold', fontSize: '1rem' }}
+            >
+              9.{' '}
+            </Typography>
+            <Typography
+              variant="span"
+              sx={{ fontWeight: 'bold', fontSize: '1rem' }}
+            >
+              Contact Us
+            </Typography>
+            <br />
+            If you have any questions or suggestions about our Privacy Policy,
+            do not hesitate to contact us at
+            <br />
+            <a
+              href="mailto: sel.developer.rezaul@gmail.com "
+              style={{ color: 'blue' }}
+            >
+              sel.developer.rezaul@gmail.com
+            </a>
           </Typography>
 
           <Typography
