@@ -1,18 +1,18 @@
 // ----------------------------------------------------------------------
 
 export const title = [
-  'How to download',
-  'How to use',
-  'How to download',
-  'How to use',
-  "Event Awards: 7 Reasons Why They Don't Work & What You Can Do About It",
-  "Event Doesn't Have To Be Hard. Read These 7 Tips",
-  'Event Is Your Worst Enemy. 7 Ways To Defeat It',
-  'Event On A Budget: 7 Tips From The Great Depression',
-  'Knowing These 7 Secrets Will Make Your Event Look Amazing',
-  'Master The Art Of Event With These 7 Tips',
-  'My Life, My Job, My Career: How 7 Simple Event Helped Me Succeed',
-  'Take Advantage Of Event - Read These 7 Tips',
+  'What is the use of SEL CONNECT mobile app?',
+  'What are the main features here?',
+  'How can I get the app?',
+  'I have properties with SEL, can I view all my properties through this app?',
+  'I am about to purchase properties from SEL, can I use this app?',
+  'How can I send feedbacks regarding my properties & after Sales support through this app?',
+  'Can I get updates regarding my property through this app?',
+  'Where do I get the login ID & Password for this app?',
+  'Is this app free to use or paid service?',
+  'Can I use the app from any mobile phone?',
+  'Can I use the app as a guest user?',
+  'I need support with the use of app, where can I call?',
   'The Next 7 Things You Should Do For Event Success',
   'The Time Is Running Out! Think About These 7 Ways To Change Your Event',
   'The 7 Best Things About Event',
@@ -87,18 +87,30 @@ export const sentence = [
 ]
 
 export const description = [
-  'Occaecati est et illo quibusdam accusamus qui. Incidunt aut et molestiae ut facere aut. Est quidem iusto praesentium excepturi harum nihil tenetur facilis. Ut omnis voluptates nihil accusantium doloribus eaque debitis.',
-  'Atque eaque ducimus minima distinctio velit. Laborum et veniam officiis. Delectus ex saepe hic id laboriosam officia. Odit nostrum qui illum saepe debitis ullam. Laudantium beatae modi fugit ut. Dolores consequatur beatae nihil voluptates rem maiores.',
-  'Rerum eius velit dolores. Explicabo ad nemo quibusdam. Voluptatem eum suscipit et ipsum et consequatur aperiam quia. Rerum nulla sequi recusandae illum velit quia quas. Et error laborum maiores cupiditate occaecati.',
-  'Et non omnis qui. Qui sunt deserunt dolorem aut velit cumque adipisci aut enim. Nihil quis quisquam nesciunt dicta nobis ab aperiam dolorem repellat. Voluptates non blanditiis. Error et tenetur iste soluta cupiditate ratione perspiciatis et. Quibusdam aliquid nam sunt et quisquam non esse.',
-  'Nihil ea sunt facilis praesentium atque. Ab animi alias sequi molestias aut velit ea. Sed possimus eos. Et est aliquid est voluptatem.',
-  'Non rerum modi. Accusamus voluptatem odit nihil in. Quidem et iusto numquam veniam culpa aperiam odio aut enim. Quae vel dolores. Pariatur est culpa veritatis aut dolorem.',
-  'Est enim et sit non impedit aperiam cumque animi. Aut eius impedit saepe blanditiis. Totam molestias magnam minima fugiat.',
-  'Unde a inventore et. Sed esse ut. Atque ducimus quibusdam fuga quas id qui fuga.',
-  'Eaque natus adipisci soluta nostrum dolorem. Nesciunt ipsum molestias ut aliquid natus ut omnis qui fugiat. Dolor et rem. Ut neque voluptatem blanditiis quasi ullam deleniti.',
-  'Nam et error exercitationem qui voluptate optio. Officia omnis qui accusantium ipsam qui. Quia sequi nulla perspiciatis optio vero omnis maxime omnis ipsum. Perspiciatis consequuntur asperiores veniam dolores.',
-  'Perspiciatis nulla ut ut ut voluptates totam consectetur eligendi qui. Optio ut cum. Dolorum sapiente qui laborum. Impedit temporibus totam delectus nihil. Voluptatem corrupti rem.',
-  'Distinctio omnis similique omnis eos. Repellat cumque rerum nisi. Reiciendis soluta non ut veniam temporibus. Accusantium et dolorem voluptas harum. Nemo eius voluptate dicta et hic nemo. Dolorem assumenda et beatae molestias sit quo mollitia quis consequatur.',
+  'This app is to create a digital communication with property owner & our After Sales department. Within a second, app user can communicate with us for their feedback related to property, send a complaint or make an enquiry.',
+
+  'Main features are Property Update from SEL, Feedback for After Sales Services, Forming a complaint, Get property offers etc.',
+
+  'You can easily download the app from Google Play Store. The Download button in this website will also redirect you to the Play Store download page. You can download and install from there.',
+
+  'You can view & manage communication for your properties developed by us through this app. Construction, repair, administration etc.',
+
+  'You can also check our current exclusive offers through this app. If you purchase properties or engage in construction projects with us, you can directly communicate with through the app as well.',
+
+  'We maintain a smooth communication with our clients through our app. Just go to My Properties button in the app’s home screen, there you can select feedback category for your After Sales service. We reply to our clients within a 24 hour timeline.',
+
+  'Yes, you can get notification updates regarding your properties in the app & in your phone also.',
+
+  'You can get a login id & password from us to access the application. To create your ID we will require a valid email id & phone number once at the initiation.',
+
+  'This app/service is completely free for our clients. We focus on the betterment of our client. We want to maintain a strong relationship with the clients.',
+
+  'You can use the app from any android mobile phone.',
+
+  'Yes you can, you will be able to see the Homepage & offers in the app as a guest user.',
+
+  'You can call our service center for further information.',
+  
   'Sed ut mollitia tempore ipsam et illum doloribus ut. Occaecati ratione veritatis explicabo. Omnis nam omnis sunt placeat tempore accusantium placeat distinctio velit.',
   'Eum illo dicta et perspiciatis ut blanditiis eos sequi. Ea veritatis aut et voluptas aut. Laborum eos quia tempore a culpa.',
   'Aut quos quae dolores repudiandae similique perferendis perferendis earum laudantium. Facere placeat natus nobis. Eius vitae ullam dolorem.',

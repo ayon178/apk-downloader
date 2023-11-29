@@ -20,7 +20,7 @@ import { Block } from './Block'
 
 // ----------------------------------------------------------------------
 
-const MOCK_ACCORDIONS = [...Array(4)].map((_, index) => ({
+const MOCK_ACCORDIONS = [...Array(12)].map((_, index) => ({
   id: mockData.id(index),
   value: `panel${index + 1}`,
   heading: `Question ${index + 1}`,
@@ -58,6 +58,17 @@ export default function AccordionComponent() {
           sx={{ mb: 3, textAlign: 'center' }}
         >
           FAQ
+        </Typography>
+        <Typography
+          variant="body2"
+          sx={{ color: 'text.secondary', marginBottom: 5, textAlign:'center' }}
+        >
+          This Property Management Application is new concept in the country. To
+          help consumers adopt this solution easily it is necessary that all
+          relevant questions – answers are openly accessible with the
+          application download page. There are total 12 questions are stated
+          here which should cover the major areas of application uses. These are
+          subject to changes depending on reviews & feedbacks.
         </Typography>
         <Block>
           {MOCK_ACCORDIONS.map((item, index) => (

@@ -84,7 +84,7 @@ export default function MainNavbar() {
           <Box sx={{ flexGrow: 1 }} />
 
           <Typography
-            onClick={() => router.push('/#feedback')}
+            onClick={() => router.push('/about')}
             variant="body2"
             sx={{
               marginRight: 2,
@@ -98,11 +98,11 @@ export default function MainNavbar() {
               },
             }}
           >
-            Menu 1
+            About App
           </Typography>
 
           <Typography
-            onClick={() => router.push('/manual')}
+            onClick={() => router.push('/privacy-policy')}
             variant="body2"
             sx={{
               marginRight: 2,
@@ -116,7 +116,7 @@ export default function MainNavbar() {
               },
             }}
           >
-            Menu 2
+            Privacy Policy
           </Typography>
 
           <ButtonAnimate>
