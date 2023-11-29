@@ -57,11 +57,11 @@ export default function AccordionComponent() {
           color="primary"
           sx={{ mb: 3, textAlign: 'center' }}
         >
-          FAQ
+          Frequently Asked Questions (FAQ)
         </Typography>
         <Typography
           variant="body1"
-          sx={{ color: 'text.secondary', marginBottom: 5, textAlign:'center' }}
+          sx={{ color: 'text.secondary', marginBottom: 5, textAlign: 'center' }}
         >
           This Property Management Application is new concept in the country. To
           help consumers adopt this solution easily it is necessary that all
