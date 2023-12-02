@@ -2,7 +2,7 @@ a {
   text-decoration: none !important;
 }
 .not_active {
-  color: #6c757d !important;
+  color: #6c757d !important; 
 }
 ::-webkit-scrollbar {
   width: 6px;
@@ -13,4 +13,8 @@ a {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(transparent, #0069ac);
+}
+
+.t{
+  color: #530d0d;
 }

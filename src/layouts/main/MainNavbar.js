@@ -102,7 +102,7 @@ export default function MainNavbar() {
           </Typography>
 
           <Typography
-            onClick={() => router.push('/privacy-policy')}
+            onClick={() => router.push('/privacy-policyj')}
             variant="body2"
             sx={{
               marginRight: 2,
@@ -135,6 +135,25 @@ export default function MainNavbar() {
               }}
             >
               Download
+            </Button>
+          </ButtonAnimate>
+          <ButtonAnimate>
+            <Button
+              variant="outlined"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                color: 'main.primary',
+                marginLeft: 2,
+                fontSize: {
+                  xs: '0.6rem',
+                  sm: '0.7rem',
+                  md: '.9rem',
+                },
+              }}
+            >
+              Register Now
             </Button>
           </ButtonAnimate>
         </Container>
