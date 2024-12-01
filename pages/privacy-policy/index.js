@@ -10,6 +10,59 @@ function Privacy() {
     <>
       <MainNavbar />
       <Page>
+        <div
+          style={{
+            backgroundImage: `
+      linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(https://lh4.googleusercontent.com/By7BfyLZGWqFHkAZz2F3fvvNyJ23H4Z0uHsnTl-hyJepkg7eAlMa425oBbk2DomH-AjwNCPSogFEEhSQuEH0gks=w16383)
+    `,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            height: '70vh',
+            width: '100%',
+            marginTop: '90px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <Typography
+            variant="h1"
+            sx={{
+              fontWeight: 'bold',
+              textAlign: 'center',
+              color: 'white',
+              fontSize: {
+                xs: '1rem',
+                sm: '2rem',
+              },
+            }}
+          >
+            Privacy Policy
+          </Typography>
+
+          <Typography
+            variant="h2"
+            sx={{
+              fontWeight: 'normal',
+              textAlign: 'center',
+              color: 'white',
+              mt: 2,
+              fontSize: {
+                xs: '.8rem',
+                md: '1.2rem',
+              },
+            }}
+          >
+            SEL CONNECT
+          </Typography>
+        </div>
+
         <Container
           sx={{
             paddingTop: 10,
@@ -25,7 +78,7 @@ function Privacy() {
             },
           }}
         >
-          <Box
+          {/* <Box
             sx={{
               backgroundColor: 'primary.main',
               paddingTop: 2,
@@ -63,18 +116,51 @@ function Privacy() {
               <br />
               designed for real estate consumers
             </Typography>
-          </Box>
+          </Box> */}
+
+          <Typography
+            variant="h1"
+            sx={{
+              fontWeight: 'bold',
+              textAlign: 'center',
+              color: '#7F1146',
+              fontSize: {
+                xs: '1rem',
+                sm: '1.5rem',
+              },
+            }}
+          >
+            Description
+          </Typography>
 
           <Typography
             variant="h2"
             sx={{
               fontWeight: 'normal',
-              mt: 5,
-              textAlign: 'justify',
+              textAlign: 'center',
+              mt: 2,
+              fontSize: {
+                xs: '1rem',
+              },
+            }}
+          >
+            Custom Property Management Application
+            <br />
+            designed for real estate consumers
+          </Typography>
+
+          <Typography
+            variant="h2"
+            sx={{
+              fontWeight: 'normal',
+              mt: 16,
+              textAlign: 'center',
               fontSize: {
                 xs: '.8rem',
-                sm: '.9rem',
+                sm: '1.2rem',
               },
+              color: '#85200C',
+              mb: 15,
             }}
           >
             This Privacy Policy document contains types of information that is
@@ -180,7 +266,7 @@ function Privacy() {
             information used to identify you. Link to the privacy policy of
             third-party service providers used by the app
             <br />
-            <ul style={{paddingLeft: '45px', marginTop: '10px'}}>
+            <ul style={{ paddingLeft: '45px', marginTop: '10px' }}>
               <li>Google Play Services</li>
               <li>Google Analytics for Firebase</li>
               <li>Firebase Crashlytics</li>
@@ -400,7 +486,7 @@ function Privacy() {
               href="mailto: sel.developer.rezaul@gmail.com "
               style={{ color: 'blue' }}
             >
-              sel.developer.rezaul@gmail.com
+              sel.connect.bd@gmail.com .
             </a>
           </Typography>
 

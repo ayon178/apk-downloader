@@ -102,7 +102,7 @@ export default function MainNavbar() {
           </Typography>
 
           <Typography
-            onClick={() => router.push('/privacy-policyj')}
+            onClick={() => router.push('/privacy-policy')}
             variant="body2"
             sx={{
               marginRight: 2,
